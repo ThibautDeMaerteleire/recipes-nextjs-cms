@@ -1,0 +1,21 @@
+picture, img {
+  max-width: 100%;
+  width: 100%;
+}
+
+li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: var(--black);
+  &:hover {
+    text-decoration: none;
+    color: var(--black);
+  }
+}

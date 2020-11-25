@@ -1,0 +1,55 @@
+.recipe {
+  margin: 2rem 0rem;
+  
+  h2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+
+  .description {
+    margin-bottom: 0;
+  }
+
+  .ingredients {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1.5rem 1rem;
+  }
+
+  .preparation {
+    padding: 1rem;
+    li {
+      margin-bottom: 1rem;
+      &::marker {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .preptitle {
+    border-bottom: 4px solid var(--black);
+    padding: 0.5rem 0rem;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    span {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: var(--beige);
+      border-radius: 0.25rem;
+    }
+  }
+
+}

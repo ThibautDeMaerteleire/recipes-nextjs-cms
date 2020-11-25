@@ -1,0 +1,28 @@
+header {
+  .navbar {
+    background-color: var(--black);
+
+    .logo {
+      margin-left: 1rem;
+      font-weight: 700;
+    }
+
+    .collapse {
+      justify-content: flex-end;
+    }
+
+    &-nav {
+      padding: 2rem 0rem;
+      a {
+        margin-left: 2rem;
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: var(--white);
+        transition: 0.3s all;
+        &:hover {
+          color: var(--gold);
+        }
+      }
+    }
+  }
+}

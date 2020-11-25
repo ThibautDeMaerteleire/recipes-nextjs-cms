@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--black);
+  color: var(--white);
+  a {
+    color: var(--white);
+    font-weight: 700;
+    &:hover {
+      color: var(--white);
+    }
+  }
+}
